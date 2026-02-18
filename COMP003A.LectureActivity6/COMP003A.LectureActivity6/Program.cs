@@ -19,7 +19,7 @@ namespace COMP003A.LectureActivity6
         { Console.WriteLine($"Student Name: {Name}, Age: {Age}"); }
         static void Main(string[] args)
         {
-            Student student1 = new Student("Stephen", 36);
+            Student student1 = new Student("Stephen", 37);
             Student student2 = new Student("Josh", 18);
 
             student1.DisplayInfo();
